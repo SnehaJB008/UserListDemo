@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_4_dp">4dp</dimen>
+    <dimen name="common_8_dp">8dp</dimen>
+    <dimen name="image_95_dp">95dp</dimen>
+    <dimen name="font_16_sp">16sp</dimen>
+    <dimen name="font_12_sp">12sp</dimen>
+    <dimen name="common_16_dp">16dp</dimen>
+    <dimen name="font_24_sp">24sp</dimen>
+</resources>

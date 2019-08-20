@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UserListDemo</string>
+    <string name="title_user_list">User List</string>
+    <string name="btn_edt_user">Edit User</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_adduser">AddUser</string>
+
+</resources>

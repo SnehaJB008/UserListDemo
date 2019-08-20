@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="@dimen/common_16_dp"
+    tools:context=".ui.EditUserFragment">
+
+    <EditText
+        android:id="@+id/etFName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_first_name"
+
+        />
+    <EditText
+        android:id="@+id/etLName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_last_name"
+        android:layout_below="@+id/etFName"
+
+        />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_email"
+        android:layout_below="@+id/etLName"
+        />
+
+    <TextView
+        android:id="@+id/tvAddUser"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingTop="@dimen/common_8_dp"
+        android:paddingBottom="@dimen/common_8_dp"
+        android:paddingStart="@dimen/common_16_dp"
+        android:paddingEnd="@dimen/common_16_dp"
+        android:layout_margin="@dimen/common_8_dp"
+        android:text="@string/btn_adduser"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etEmail"
+        android:background="@drawable/card_border"/>
+
+</RelativeLayout>
